@@ -1,0 +1,13 @@
+How to install the crontab in 5 simple steps: 
+
+1) Open a terminal
+2) Write in the terminal: cd /location/of/your/*.sh/scripts
+3) Write in the terminal: bash bash_0.sh      #this will open run the script to open the crontab and normally you will be editing in a vi
+4) Write in the vi (you start typing after you press i -> simple vi) what your crontab should do (careful you need the full path for commands, eg it's not bash but /bin/bash )
+5) Save and exit your document (escape +"wq")
+
+In the files the bash_0.sh is the first file mentioned and the file mybash.sh is an example file that I ask the crontab to execute.
+
+Additionally, the linux system I am using is Ubuntu and it might be slightly different in other systems. 
+
+
